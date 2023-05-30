@@ -1,5 +1,4 @@
 ![Logo](admin/trashschedule.png)
-
 # ioBroker.trashschedule
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.trashschedule?style=flat-square)](https://www.npmjs.com/package/iobroker.trashschedule)
@@ -17,72 +16,51 @@
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/klein0r/iobroker.trashschedule?label=repo%20vulnerabilities&logo=github&style=flat-square)
 
 ## Versions
-
 ![Beta](https://img.shields.io/npm/v/iobroker.trashschedule.svg?color=red&label=beta)
 ![Stable](http://iobroker.live/badges/trashschedule-stable.svg)
 ![Installed](http://iobroker.live/badges/trashschedule-installed.svg)
 
-Scans an ical calendar to calculate the days left until next trash pickup
+This adapter scans an iCal calendar to calculate the days left until the next trash pickup.
 
 ## Sponsored by
-
 [![ioBroker Master Kurs](https://haus-automatisierung.com/images/ads/ioBroker-Kurs.png)](https://haus-automatisierung.com/iobroker-kurs/?refid=iobroker-trashschedule)
 
-## Installation
-
-Please use the "adapter list" in ioBroker to install a stable version of this adapter. You can also use the CLI to install this adapter:
-
-```
-iobroker add trashschedule
-```
-
 ## Documentation
-
 [🇺🇸 Documentation](./docs/en/README.md)
 
 [🇩🇪 Dokumentation](./docs/de/README.md)
 
 ## Credits
-
 - SVG: https://pixabay.com/de/vectors/behälter-kann-deckel-offen-grün-310937/
 
 ## Sentry
-
 **This adapter uses Sentry libraries to automatically report exceptions and code errors to the developers.** For more details and for information how to disable the error reporting see [Sentry-Plugin Documentation](https://github.com/ioBroker/plugin-sentry#plugin-sentry)! Sentry reporting is used starting with js-controller 3.0.
 
 ## Changelog
-
 <!--
   Placeholder for the next version (at the beginning of the line):
   ### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-
 * (klein0r) Improved log messages
 
 ### 2.2.0 (2023-01-16)
-
 * (klein0r) Added completed flag for types
 
 ### 2.1.1 (2023-01-11)
-
 * (klein0r) Added Ukrainian language
 
 ### 2.1.0 (2022-12-12)
-
 * (klein0r) Dropped Admin 5 support
 * (klein0r) Added Ukrainian language
 
 ### 2.0.3 (2022-06-02)
-
 * (klein0r) Allow whitespaces in the match pattern
 
 ### 2.0.2 (2022-05-27)
-
 * (klein0r) Fixed error handling for trash types with empty name
 
 ## License
-
 MIT License
 
 Copyright (c) 2023 Matthias Kleine <info@haus-automatisierung.com>
